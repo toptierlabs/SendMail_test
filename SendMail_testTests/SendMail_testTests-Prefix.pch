@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SendMail_testTests' target in the 'SendMail_testTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

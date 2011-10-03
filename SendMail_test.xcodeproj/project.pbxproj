@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABBA0EA3143A41EE00B15686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBA0EA2143A41EE00B15686 /* UIKit.framework */; };
+		ABBA0EA5143A41EE00B15686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBA0EA4143A41EE00B15686 /* Foundation.framework */; };
+		ABBA0EA7143A41EE00B15686 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBA0EA6143A41EE00B15686 /* CoreGraphics.framework */; };
+		ABBA0EAD143A41EE00B15686 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBA0EAB143A41EE00B15686 /* InfoPlist.strings */; };
+		ABBA0EB0143A41EE00B15686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA0EAF143A41EE00B15686 /* main.m */; };
+		ABBA0EB3143A41EE00B15686 /* SendMail_testAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA0EB2143A41EE00B15686 /* SendMail_testAppDelegate.m */; };
+		ABBA0EB6143A41EE00B15686 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBA0EB4143A41EE00B15686 /* MainWindow.xib */; };
+		ABBA0EB9143A41EE00B15686 /* SendMail_testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA0EB8143A41EE00B15686 /* SendMail_testViewController.m */; };
+		ABBA0EBC143A41EE00B15686 /* SendMail_testViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBA0EBA143A41EE00B15686 /* SendMail_testViewController.xib */; };
+		ABBA0EC3143A41EE00B15686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBA0EA2143A41EE00B15686 /* UIKit.framework */; };
+		ABBA0EC4143A41EE00B15686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBA0EA4143A41EE00B15686 /* Foundation.framework */; };
+		ABBA0EC5143A41EE00B15686 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBA0EA6143A41EE00B15686 /* CoreGraphics.framework */; };
+		ABBA0ECD143A41EE00B15686 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBA0ECB143A41EE00B15686 /* InfoPlist.strings */; };
+		ABBA0ED0143A41EE00B15686 /* SendMail_testTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ABBA0ECF143A41EE00B15686 /* SendMail_testTests.h */; };
+		ABBA0ED2143A41EE00B15686 /* SendMail_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA0ED1143A41EE00B15686 /* SendMail_testTests.m */; };
+		ABBA0EDC143A43AF00B15686 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBA0EDB143A43AF00B15686 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABBA0EC6143A41EE00B15686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBA0E95143A41EE00B15686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBA0E9D143A41EE00B15686;
+			remoteInfo = SendMail_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABBA0E9E143A41EE00B15686 /* SendMail_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMail_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBA0EA2143A41EE00B15686 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABBA0EA4143A41EE00B15686 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABBA0EA6143A41EE00B15686 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABBA0EAA143A41EE00B15686 /* SendMail_test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendMail_test-Info.plist"; sourceTree = "<group>"; };
+		ABBA0EAC143A41EE00B15686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABBA0EAE143A41EE00B15686 /* SendMail_test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendMail_test-Prefix.pch"; sourceTree = "<group>"; };
+		ABBA0EAF143A41EE00B15686 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABBA0EB1143A41EE00B15686 /* SendMail_testAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendMail_testAppDelegate.h; sourceTree = "<group>"; };
+		ABBA0EB2143A41EE00B15686 /* SendMail_testAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMail_testAppDelegate.m; sourceTree = "<group>"; };
+		ABBA0EB5143A41EE00B15686 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ABBA0EB7143A41EE00B15686 /* SendMail_testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendMail_testViewController.h; sourceTree = "<group>"; };
+		ABBA0EB8143A41EE00B15686 /* SendMail_testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMail_testViewController.m; sourceTree = "<group>"; };
+		ABBA0EBB143A41EE00B15686 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SendMail_testViewController.xib; sourceTree = "<group>"; };
+		ABBA0EC2143A41EE00B15686 /* SendMail_testTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMail_testTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBA0ECA143A41EE00B15686 /* SendMail_testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendMail_testTests-Info.plist"; sourceTree = "<group>"; };
+		ABBA0ECC143A41EE00B15686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABBA0ECE143A41EE00B15686 /* SendMail_testTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendMail_testTests-Prefix.pch"; sourceTree = "<group>"; };
+		ABBA0ECF143A41EE00B15686 /* SendMail_testTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendMail_testTests.h; sourceTree = "<group>"; };
+		ABBA0ED1143A41EE00B15686 /* SendMail_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMail_testTests.m; sourceTree = "<group>"; };
+		ABBA0EDB143A43AF00B15686 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBA0E9B143A41EE00B15686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA0EDC143A43AF00B15686 /* MessageUI.framework in Frameworks */,
+				ABBA0EA3143A41EE00B15686 /* UIKit.framework in Frameworks */,
+				ABBA0EA5143A41EE00B15686 /* Foundation.framework in Frameworks */,
+				ABBA0EA7143A41EE00B15686 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBA0EBE143A41EE00B15686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA0EC3143A41EE00B15686 /* UIKit.framework in Frameworks */,
+				ABBA0EC4143A41EE00B15686 /* Foundation.framework in Frameworks */,
+				ABBA0EC5143A41EE00B15686 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBA0E93143A41EE00B15686 = {
+			isa = PBXGroup;
+			children = (
+				ABBA0EA8143A41EE00B15686 /* SendMail_test */,
+				ABBA0EC8143A41EE00B15686 /* SendMail_testTests */,
+				ABBA0EA1143A41EE00B15686 /* Frameworks */,
+				ABBA0E9F143A41EE00B15686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBA0E9F143A41EE00B15686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA0E9E143A41EE00B15686 /* SendMail_test.app */,
+				ABBA0EC2143A41EE00B15686 /* SendMail_testTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBA0EA1143A41EE00B15686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA0EDB143A43AF00B15686 /* MessageUI.framework */,
+				ABBA0EA2143A41EE00B15686 /* UIKit.framework */,
+				ABBA0EA4143A41EE00B15686 /* Foundation.framework */,
+				ABBA0EA6143A41EE00B15686 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABBA0EA8143A41EE00B15686 /* SendMail_test */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA0EB1143A41EE00B15686 /* SendMail_testAppDelegate.h */,
+				ABBA0EB2143A41EE00B15686 /* SendMail_testAppDelegate.m */,
+				ABBA0EB4143A41EE00B15686 /* MainWindow.xib */,
+				ABBA0EB7143A41EE00B15686 /* SendMail_testViewController.h */,
+				ABBA0EB8143A41EE00B15686 /* SendMail_testViewController.m */,
+				ABBA0EBA143A41EE00B15686 /* SendMail_testViewController.xib */,
+				ABBA0EA9143A41EE00B15686 /* Supporting Files */,
+			);
+			path = SendMail_test;
+			sourceTree = "<group>";
+		};
+		ABBA0EA9143A41EE00B15686 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA0EAA143A41EE00B15686 /* SendMail_test-Info.plist */,
+				ABBA0EAB143A41EE00B15686 /* InfoPlist.strings */,
+				ABBA0EAE143A41EE00B15686 /* SendMail_test-Prefix.pch */,
+				ABBA0EAF143A41EE00B15686 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABBA0EC8143A41EE00B15686 /* SendMail_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA0ECF143A41EE00B15686 /* SendMail_testTests.h */,
+				ABBA0ED1143A41EE00B15686 /* SendMail_testTests.m */,
+				ABBA0EC9143A41EE00B15686 /* Supporting Files */,
+			);
+			path = SendMail_testTests;
+			sourceTree = "<group>";
+		};
+		ABBA0EC9143A41EE00B15686 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA0ECA143A41EE00B15686 /* SendMail_testTests-Info.plist */,
+				ABBA0ECB143A41EE00B15686 /* InfoPlist.strings */,
+				ABBA0ECE143A41EE00B15686 /* SendMail_testTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBA0E9D143A41EE00B15686 /* SendMail_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBA0ED5143A41EE00B15686 /* Build configuration list for PBXNativeTarget "SendMail_test" */;
+			buildPhases = (
+				ABBA0E9A143A41EE00B15686 /* Sources */,
+				ABBA0E9B143A41EE00B15686 /* Frameworks */,
+				ABBA0E9C143A41EE00B15686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendMail_test;
+			productName = SendMail_test;
+			productReference = ABBA0E9E143A41EE00B15686 /* SendMail_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABBA0EC1143A41EE00B15686 /* SendMail_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBA0ED8143A41EE00B15686 /* Build configuration list for PBXNativeTarget "SendMail_testTests" */;
+			buildPhases = (
+				ABBA0EBD143A41EE00B15686 /* Sources */,
+				ABBA0EBE143A41EE00B15686 /* Frameworks */,
+				ABBA0EBF143A41EE00B15686 /* Resources */,
+				ABBA0EC0143A41EE00B15686 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBA0EC7143A41EE00B15686 /* PBXTargetDependency */,
+			);
+			name = SendMail_testTests;
+			productName = SendMail_testTests;
+			productReference = ABBA0EC2143A41EE00B15686 /* SendMail_testTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBA0E95143A41EE00B15686 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ABBA0E98143A41EE00B15686 /* Build configuration list for PBXProject "SendMail_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABBA0E93143A41EE00B15686;
+			productRefGroup = ABBA0E9F143A41EE00B15686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBA0E9D143A41EE00B15686 /* SendMail_test */,
+				ABBA0EC1143A41EE00B15686 /* SendMail_testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBA0E9C143A41EE00B15686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA0EAD143A41EE00B15686 /* InfoPlist.strings in Resources */,
+				ABBA0EB6143A41EE00B15686 /* MainWindow.xib in Resources */,
+				ABBA0EBC143A41EE00B15686 /* SendMail_testViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBA0EBF143A41EE00B15686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA0ECD143A41EE00B15686 /* InfoPlist.strings in Resources */,
+				ABBA0ED0143A41EE00B15686 /* SendMail_testTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABBA0EC0143A41EE00B15686 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBA0E9A143A41EE00B15686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA0EB0143A41EE00B15686 /* main.m in Sources */,
+				ABBA0EB3143A41EE00B15686 /* SendMail_testAppDelegate.m in Sources */,
+				ABBA0EB9143A41EE00B15686 /* SendMail_testViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBA0EBD143A41EE00B15686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA0ED2143A41EE00B15686 /* SendMail_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABBA0EC7143A41EE00B15686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBA0E9D143A41EE00B15686 /* SendMail_test */;
+			targetProxy = ABBA0EC6143A41EE00B15686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABBA0EAB143A41EE00B15686 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBA0EAC143A41EE00B15686 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABBA0EB4143A41EE00B15686 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBA0EB5143A41EE00B15686 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ABBA0EBA143A41EE00B15686 /* SendMail_testViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBA0EBB143A41EE00B15686 /* en */,
+			);
+			name = SendMail_testViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABBA0ECB143A41EE00B15686 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBA0ECC143A41EE00B15686 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABBA0ED3143A41EE00B15686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABBA0ED4143A41EE00B15686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ABBA0ED6143A41EE00B15686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendMail_test/SendMail_test-Prefix.pch";
+				INFOPLIST_FILE = "SendMail_test/SendMail_test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABBA0ED7143A41EE00B15686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendMail_test/SendMail_test-Prefix.pch";
+				INFOPLIST_FILE = "SendMail_test/SendMail_test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABBA0ED9143A41EE00B15686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SendMail_test.app/SendMail_test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendMail_testTests/SendMail_testTests-Prefix.pch";
+				INFOPLIST_FILE = "SendMail_testTests/SendMail_testTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ABBA0EDA143A41EE00B15686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SendMail_test.app/SendMail_test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendMail_testTests/SendMail_testTests-Prefix.pch";
+				INFOPLIST_FILE = "SendMail_testTests/SendMail_testTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBA0E98143A41EE00B15686 /* Build configuration list for PBXProject "SendMail_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBA0ED3143A41EE00B15686 /* Debug */,
+				ABBA0ED4143A41EE00B15686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBA0ED5143A41EE00B15686 /* Build configuration list for PBXNativeTarget "SendMail_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBA0ED6143A41EE00B15686 /* Debug */,
+				ABBA0ED7143A41EE00B15686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABBA0ED8143A41EE00B15686 /* Build configuration list for PBXNativeTarget "SendMail_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBA0ED9143A41EE00B15686 /* Debug */,
+				ABBA0EDA143A41EE00B15686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBA0E95143A41EE00B15686 /* Project object */;
+}
